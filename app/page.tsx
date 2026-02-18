@@ -811,8 +811,14 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-16 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden py-16 sm:py-20" style={{
+        backgroundImage: `url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/effective-pills_1098-14984-gR4Qp6ruCrWZCK7YxYtIooGumZw9AJ.avif')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}>
+        <div className="absolute inset-0 bg-background/75"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
               Premium Research <span className="text-primary">Peptides</span>
@@ -823,7 +829,7 @@ export default function Home() {
           </div>
 
           {/* Search Bar */}
-          <div className="max-w-2xl mx-auto mb-12">
+          <div className="max-w-2xl mx-auto mb-12 relative z-10">
             <div className="relative">
               <Search className="absolute left-4 top-3.5 h-5 w-5 text-muted-foreground" />
               <input
@@ -1080,8 +1086,8 @@ export default function Home() {
             <div>
               <h3 className="font-bold text-foreground mb-4">Contact Us</h3>
               <div className="text-muted-foreground text-sm space-y-2">
-                <p>Email: info@janoshik.com</p>
-                <p>Telegram: @ruo_bio</p>
+                <p>Email: Infopeterpeptides@gmail.com</p>
+                <p>Telegram: +19143251656</p>
                 <p>Web: www.ruo.bio</p>
               </div>
             </div>
@@ -1176,7 +1182,7 @@ export default function Home() {
                         })
                         setQuantity(1)
                         setSelectedProduct(null)
-                        alert(`${quantity} ${selectedProduct.name} added to cart!\n\nTo order, contact us:\nEmail: info@janoshik.com\nTelegram: @ruo_bio`)
+                        alert(`${quantity} ${selectedProduct.name} added to cart!\n\nTo order, contact us:\nEmail: Infopeterpeptides@gmail.com\nTelegram: +19143251656`)
                       }}
                       className="flex-1 bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-3 rounded-lg text-lg h-auto"
                     >
