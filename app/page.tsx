@@ -1079,11 +1079,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="font-bold text-foreground mb-4">Contact Us</h3>
-              <p className="text-muted-foreground text-sm space-y-2">
+              <div className="text-muted-foreground text-sm space-y-2">
                 <p>Email: info@janoshik.com</p>
                 <p>Telegram: @ruo_bio</p>
                 <p>Web: www.ruo.bio</p>
-              </p>
+              </div>
             </div>
             <div>
               <h3 className="font-bold text-foreground mb-4">Research Only</h3>
