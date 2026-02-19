@@ -27,10 +27,7 @@ export function Navbar() {
             <Link href="/shop" className="text-foreground hover:text-primary transition-colors font-medium text-sm">
               Shop
             </Link>
-            <a href="https://www.janoshik.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium text-sm">
-              Lab Results
-            </a>
-            <a href="mailto:info@janoshik.com" className="text-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
+            <a href="mailto:Infopeterpeptides@gmail.com" className="text-foreground hover:text-primary transition-colors font-medium text-sm flex items-center gap-1">
               <Mail className="h-4 w-4" />
               Contact
             </a>
@@ -40,14 +37,14 @@ export function Navbar() {
           <div className="flex items-center gap-2 sm:gap-4">
             {/* Contact Icons */}
             <a
-              href="mailto:info@janoshik.com"
+              href="mailto:Infopeterpeptides@gmail.com"
               title="Email us"
               className="p-2 hover:bg-muted rounded-lg transition-colors hidden sm:block"
             >
               <Mail className="h-5 w-5 text-foreground" />
             </a>
             <a
-              href="https://t.me/ruo_bio"
+              href="https://t.me/+19143251656"
               target="_blank"
               rel="noopener noreferrer"
               title="Chat on Telegram"
@@ -94,22 +91,14 @@ export function Navbar() {
               Shop
             </Link>
             <a
-              href="https://www.janoshik.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-3 py-2 text-foreground hover:bg-muted rounded-lg transition-colors font-medium"
-            >
-              Lab Results
-            </a>
-            <a
-              href="mailto:info@janoshik.com"
+              href="mailto:Infopeterpeptides@gmail.com"
               className="block px-3 py-2 text-foreground hover:bg-muted rounded-lg transition-colors font-medium flex items-center gap-2"
             >
               <Mail className="h-4 w-4" />
               Email
             </a>
             <a
-              href="https://t.me/ruo_bio"
+              href="https://t.me/+19143251656"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-3 py-2 text-foreground hover:bg-muted rounded-lg transition-colors font-medium flex items-center gap-2"
