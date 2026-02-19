@@ -79,7 +79,15 @@ const peptideProducts = [
     testResults: [
       { test: 'Sterility & Endotoxins', passed: true },
       { test: 'Net Content & Purity', passed: true }
-    ]
+    ],
+    coaData: {
+      sampleName: 'Ipam',
+      taskNumber: '#87531',
+      purity: '99.877%',
+      content: '5.07 mg',
+      verified: 'IQB6QUWXDUG3',
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87531-hvm9e0KOFUKUzw7jzsq3iIP4HzTX5g.png'
+    }
   },
   {
     id: 6,
@@ -114,7 +122,7 @@ const peptideProducts = [
       purity: '99.476%',
       content: '4.63 mg',
       verified: 'GMGY7HF4SU5L',
-      document: '/coa/test-report-87511.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87511-cyFreCH1MPHoSOMv2TkgWoZ6p0lv12.png'
     }
   },
   {
@@ -136,7 +144,7 @@ const peptideProducts = [
       purity: '99.283%',
       content: '4.79 mg',
       verified: '52E6RTSBMHZ1',
-      document: '/coa/test-report-87509.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87509-UEXpRHyv1UxGFRZmvEsUD5QfZ41jnP.png'
     }
   },
   {
@@ -311,7 +319,7 @@ const peptideProducts = [
       purity: '99.022%',
       content: '4.85 mg',
       verified: '6F6EQ55X99YB',
-      document: '/coa/test-report-87529.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87529-OeREo4YIQOLdxqs0EECalaJ3v2Oejs.png'
     }
   },
   {
@@ -355,7 +363,7 @@ const peptideProducts = [
       purity: '99.892%',
       content: '9.25 mg',
       verified: 'R5DWA1AC47JI',
-      document: '/coa/test-report-87513.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87513-QVqGA9c1hkJbKiv40lNRBXcmooA6Ho.png'
     }
   },
   {
@@ -442,7 +450,7 @@ const peptideProducts = [
       purity: '99.811%',
       content: '11.74 mg',
       verified: 'YV9166WG4FD9',
-      document: '/coa/ss31-87527.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87527-DG4qhmvTCKGYW4jKC4qtxtiCaZlibX.png'
     }
   },
   {
@@ -464,7 +472,7 @@ const peptideProducts = [
       purity: '99.116%',
       content: '5.06 mg',
       verified: '7UNH16KJT6QX',
-      document: '/coa/test-report-87533.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87533-EPLErbADNxW7SIQQ9WkrrkvzO1UVjh.png'
     }
   },
   {
@@ -549,7 +557,7 @@ const peptideProducts = [
       purity: '99.880%',
       content: '10.45 mg',
       verified: 'V9N1C42DUBAE',
-      document: '/coa/test-report-87510.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87510-qVgzeN9WvmrNc2HT6OdvIzTqTmaOlQ.png'
     }
   },
   {
@@ -571,7 +579,7 @@ const peptideProducts = [
       purity: '99.826%',
       content: '10.46 mg',
       verified: '9HHCL1IGEVNM',
-      document: '/coa/mazdutide-87512.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87512-FP2umE5eYjpJxvS87bPKFUpxVCXsOy.png'
     }
   },
   {
@@ -593,7 +601,7 @@ const peptideProducts = [
       purity: '99.817%',
       content: '10.45 mg',
       verified: 'CWHVKLPI9VPA',
-      document: '/coa/test-report-87500.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87500-JCIbU0LzCX51FvIJY0O1ve1PjXjhsv.png'
     }
   },
   {
