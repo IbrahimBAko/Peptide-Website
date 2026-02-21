@@ -973,7 +973,7 @@ export default function Home() {
                     alt={product.name}
                     width={300}
                     height={300}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/5 to-accent/0 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
@@ -1143,7 +1143,7 @@ export default function Home() {
                     alt={selectedProduct.name}
                     width={400}
                     height={400}
-                    className="object-cover w-full h-full"
+                    className="object-cover w-full h-auto"
                     priority
                   />
                 </div>
