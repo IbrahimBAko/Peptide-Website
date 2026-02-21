@@ -8,6 +8,7 @@ import { Card } from '@/components/ui/card'
 import { Search, ChevronRight, ChevronLeft, ShoppingCart, Shield, Zap, Award, Truck, X } from 'lucide-react'
 import { Navbar } from '@/components/navbar'
 import { PriceList } from '@/components/price-list'
+import { OrderForm } from '@/components/order-form'
 import { useCart } from '@/context/cart-context'
 
 const peptideProducts = [
@@ -86,7 +87,7 @@ const peptideProducts = [
       purity: '99.877%',
       content: '5.07 mg',
       verified: 'IQB6QUWXDUG3',
-      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87531-hvm9e0KOFUKUzw7jzsq3iIP4HzTX5g.png'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87531-nWpFsshacZrEMnvhfJEXUSBVhMQX2t.png'
     }
   },
   {
@@ -122,7 +123,29 @@ const peptideProducts = [
       purity: '99.476%',
       content: '4.63 mg',
       verified: 'GMGY7HF4SU5L',
-      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87511-cyFreCH1MPHoSOMv2TkgWoZ6p0lv12.png'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87511-MSmrAA5Q50Nohe9KLWprRXX2RIo0GO.png'
+    }
+  },
+  {
+    id: 7,
+    name: 'GHRP-2',
+    dosage: '10 Vials / 5mg',
+    price: '$26.99',
+    casePrice: 'Case of 10 - $269.90',
+    image: '/products/ghrp2.jpg',
+    description: 'Potent growth hormone secretagogue for advanced HGH research. Enhanced appetite stimulation properties.',
+    benefits: ['GH secretion', 'Appetite stimulation', 'Strength support', 'Research grade'],
+    testResults: [
+      { test: 'Sterility & Endotoxins', passed: true },
+      { test: 'Net Content & Purity', passed: true }
+    ],
+    coaData: {
+      sampleName: 'Ghrp2',
+      taskNumber: '#87509',
+      purity: '99.283%',
+      content: '4.79 mg',
+      verified: '52E6RTSBMHZ1',
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87509-obopkwBFlydJQHtkKu01FW7sDlj8fh.png'
     }
   },
   {
@@ -450,7 +473,29 @@ const peptideProducts = [
       purity: '99.811%',
       content: '11.74 mg',
       verified: 'YV9166WG4FD9',
-      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87527-DG4qhmvTCKGYW4jKC4qtxtiCaZlibX.png'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87527-COedt4J8mJUiFQw1BBv6ohLfnZrypz.png'
+    }
+  },
+  {
+    id: 13,
+    name: 'SURVODUTIDE',
+    dosage: '10 Vials / 10mg',
+    price: '$48.99',
+    casePrice: 'Case of 10 - $489.90',
+    image: '/products/survodutide.jpg',
+    description: 'Dual GLP-1/GCG receptor agonist for comprehensive metabolic research. Ultra-pure formulation.',
+    benefits: ['Metabolic regulation', 'Weight management', 'Dual pathway', 'Research grade'],
+    testResults: [
+      { test: 'Sterility & Endotoxins', passed: true },
+      { test: 'Net Content & Purity', passed: true }
+    ],
+    coaData: {
+      sampleName: 'Survodutide 10mg',
+      taskNumber: '#87510',
+      purity: '99.880%',
+      content: '10.45 mg',
+      verified: 'V9N1C42DUBAE',
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87510-OwAVMYRBXjiJLA7wv72J9HLTqAEirV.png'
     }
   },
   {
@@ -472,7 +517,7 @@ const peptideProducts = [
       purity: '99.116%',
       content: '5.06 mg',
       verified: '7UNH16KJT6QX',
-      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87533-EPLErbADNxW7SIQQ9WkrrkvzO1UVjh.png'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87533-2EBwzmtop8bWrgTRreSjSBjrZJ1w7q.png'
     }
   },
   {
@@ -579,7 +624,29 @@ const peptideProducts = [
       purity: '99.826%',
       content: '10.46 mg',
       verified: '9HHCL1IGEVNM',
-      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87512-FP2umE5eYjpJxvS87bPKFUpxVCXsOy.png'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87512-usGlTe8gZTydee96I0AkwNNIqVpHjZ.png'
+    }
+  },
+  {
+    id: 12,
+    name: 'PT-141',
+    dosage: '10 Vials / 10mg',
+    price: '$44.99',
+    casePrice: 'Case of 10 - $449.90',
+    image: '/products/pt141.jpg',
+    description: 'Melanocortin receptor agonist for sexual dysfunction research. Pharmaceutical grade purity.',
+    benefits: ['Sexual function', 'Melanocortin pathway', 'Systemic effects', 'Research grade'],
+    testResults: [
+      { test: 'Sterility & Endotoxins', passed: true },
+      { test: 'Net Content & Purity', passed: true }
+    ],
+    coaData: {
+      sampleName: 'Pt141 10mg',
+      taskNumber: '#87513',
+      purity: '99.892%',
+      content: '9.25 mg',
+      verified: 'R5DWA1AC47JI',
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87513-xb11ScMs3blko4DmEiYnLjnDXtz1Kg.png'
     }
   },
   {
@@ -779,6 +846,28 @@ const peptideProducts = [
       document: '/coa/chromate-5amino1mq.jpg'
     }
   },
+  {
+    id: 38,
+    name: 'GLOW (Multi-Peptide Blend)',
+    dosage: '10 Vials / Complex Blend',
+    price: '$59.99',
+    casePrice: 'Case of 10 - $599.90',
+    image: '/products/glow.jpg',
+    description: 'Premium multi-peptide blend containing GHK-Cu, BPC-157, and TB-500. Comprehensive recovery and regeneration formula.',
+    benefits: ['Multi-compound blend', 'Tissue repair', 'Skin health', 'Regeneration'],
+    testResults: [
+      { test: 'Sterility & Endotoxins', passed: true },
+      { test: 'Multi-Component Analysis', passed: true }
+    ],
+    coaData: {
+      sampleName: 'Glow',
+      taskNumber: '#87535',
+      purity: 'Multi-component',
+      content: 'GHK-Cu: 61.39mg | BPC-157: 11.99mg | TB-500: 10.56mg',
+      verified: 'SKSNW7JXDHX7',
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-87535-lrUkT4WFhw2Gsx153wH5OV2tmpwCN6.png'
+    }
+  },
 ]
 
 export default function Home() {
@@ -788,6 +877,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('')
   const [filteredProducts, setFilteredProducts] = useState(peptideProducts)
   const [quantity, setQuantity] = useState(1)
+  const [isOrderFormOpen, setIsOrderFormOpen] = useState(false)
 
   // Auto-rotate carousel every 6 seconds
   useEffect(() => {
@@ -1174,6 +1264,22 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">{selectedProduct.casePrice}</p>
                   </div>
 
+                  {/* Specifications/Variants Selector */}
+                  <div>
+                    <label className="block text-sm font-semibold text-foreground mb-2">Select Specification</label>
+                    <select
+                      defaultValue={selectedProduct.dosage}
+                      className="w-full px-4 py-2 rounded-lg border border-border bg-card text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                    >
+                      <option value={selectedProduct.dosage}>{selectedProduct.name} - {selectedProduct.dosage}</option>
+                      {selectedProduct.variants?.map((variant, idx) => (
+                        <option key={idx} value={variant}>
+                          {selectedProduct.name} - {variant}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
                   {/* Quantity Selector */}
                   <div className="flex items-center gap-6">
                     <div className="flex items-center border border-border rounded-lg overflow-hidden bg-muted/30">
@@ -1327,6 +1433,24 @@ export default function Home() {
           </div>
         </div>
       )}
+
+      {/* Floating Order Button */}
+      <div className="fixed bottom-8 right-8 z-40">
+        <button
+          onClick={() => setIsOrderFormOpen(true)}
+          className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full p-4 shadow-lg hover:shadow-xl transition-all flex items-center gap-2 font-semibold"
+        >
+          <ShoppingCart className="h-6 w-6" />
+          <span className="hidden sm:inline">Order Now</span>
+        </button>
+      </div>
+
+      {/* Order Form Modal */}
+      <OrderForm
+        isOpen={isOrderFormOpen}
+        onClose={() => setIsOrderFormOpen(false)}
+        products={peptideProducts}
+      />
     </div>
   )
 }
