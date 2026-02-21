@@ -127,7 +127,7 @@ const peptideProducts = [
     }
   },
   {
-    id: 7,
+    id: 39,
     name: 'GHRP-2',
     dosage: '10 Vials / 5mg',
     price: '$26.99',
@@ -477,7 +477,7 @@ const peptideProducts = [
     }
   },
   {
-    id: 13,
+    id: 40,
     name: 'SURVODUTIDE',
     dosage: '10 Vials / 10mg',
     price: '$48.99',
@@ -628,7 +628,7 @@ const peptideProducts = [
     }
   },
   {
-    id: 12,
+    id: 41,
     name: 'PT-141',
     dosage: '10 Vials / 10mg',
     price: '$44.99',
