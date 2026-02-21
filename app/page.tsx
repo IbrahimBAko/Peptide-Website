@@ -210,7 +210,7 @@ const peptideProducts = [
       purity: '99.770%',
       content: '4.20 mg',
       verified: 'BJX32LQSPTCH',
-      document: '/coa/test-report-100915.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100915-ToRLpEL218MNdrNzNQNSUcjrNxv5vd.png'
     }
   },
   {
@@ -275,7 +275,7 @@ const peptideProducts = [
       purity: '99.010%',
       content: '4.38 mg',
       verified: 'RTKL2J3IZV5W',
-      document: '/coa/oxytocin-100911.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100911-1-alC7ZA0lnRm7970Emv0I1tjXr4CxLb.png'
     }
   },
   {
@@ -297,7 +297,7 @@ const peptideProducts = [
       purity: '99.720%',
       content: '5.36 mg',
       verified: 'QZDUCE88T5IG',
-      document: '/coa/test-report-100900.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100900-1-5ZEJs8AhHTSRDDq5W1UPTulQInK4sT.png'
     }
   },
   {
@@ -341,7 +341,7 @@ const peptideProducts = [
       purity: '99.505%',
       content: '1.28 mg',
       verified: '8QRY9A9IPQMD',
-      document: '/coa/test-report-100903.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100903-1-JYHKLV8mtWehkmsivxRHKJEM5uGhCr.png'
     }
   },
   {
@@ -385,7 +385,7 @@ const peptideProducts = [
       purity: '99.879%',
       content: '91.47 mg',
       verified: 'D6YNB2TY67YU',
-      document: '/coa/test-report-88476.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-88476-GaKFHpQtbYC3JQnVVt7zb88GIHebAL.png'
     }
   },
   {
@@ -666,7 +666,7 @@ const peptideProducts = [
       purity: '98.477%',
       content: '8.22 mg',
       verified: 'FGWJV2UINANK',
-      document: '/coa/test-report-100909.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100909-C4tfOoNSaBi4Xf1YhjJppF1BctAWe8.png'
     }
   },
   {
@@ -688,7 +688,7 @@ const peptideProducts = [
       purity: '99.223%',
       content: '1.48 mg',
       verified: 'KL7X9PDZ64V6',
-      document: '/coa/pegmgf-107263.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-107263-LNBobFYoJS2o6tSflv23HkHHXYzhoS.png'
     }
   },
   {
@@ -710,7 +710,7 @@ const peptideProducts = [
       purity: '99.220%',
       content: '4.27 mg',
       verified: '64GUJW81CLTM',
-      document: '/coa/pnc27-100914.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100914-APnzD62U5AJzBizbI4liyOFdxwtfc5.png'
     }
   },
   {
@@ -732,7 +732,7 @@ const peptideProducts = [
       purity: '99.151%',
       content: '4.63 mg',
       verified: 'Q6NJ849PPEC6',
-      document: '/coa/test-report-100918.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100918-1-p2GsyhixQOykG5DCY6PnbPiVzsyYHY.png'
     }
   },
   {
@@ -754,7 +754,7 @@ const peptideProducts = [
       purity: '99.036%',
       content: '4.86 mg',
       verified: 'YDXPMPCMJTIF',
-      document: '/coa/test-report-100910.jpg'
+      document: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Test-Report-100910-1-i8BxknVnTouM5VoqkacZMJTnAHIza5.png'
     }
   },
   {
@@ -1090,13 +1090,25 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border/40 bg-muted/20 py-12 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div>
               <h3 className="font-bold text-foreground mb-4">Contact Us</h3>
               <div className="text-muted-foreground text-sm space-y-2">
                 <p>Email: Infopeterpeptides@gmail.com</p>
                 <p>Telegram: +19143251656</p>
                 <p>Web: www.ruo.bio</p>
+              </div>
+            </div>
+            <div>
+              <h3 className="font-bold text-foreground mb-4">Payment Methods</h3>
+              <div className="text-muted-foreground text-sm space-y-1">
+                <p>• Cash App</p>
+                <p>• Zelle</p>
+                <p>• PayPal</p>
+                <p>• Venmo</p>
+                <p>• Apple Pay</p>
+                <p>• Chime</p>
+                <p>• Gift Cards</p>
               </div>
             </div>
             <div>
